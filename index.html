@@ -1,12 +1,50 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head> <!--head -> css, 폰트 등의 설정-->
+s<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>나의 포트폴리오</title>
+    <link rel="stylesheet" href="styles.css" />
+    <scrip src="./main.js", defer></script>
 </head>
-<!-- body -> 눈에 보이는 것을 작업하는 곳 !!!-->
 <body>
-    안녕하세요 저는 'oz'입니다. 저의 포트폴리오 사이트에 방문해 주셔서 감사합니다!
+    <header>
+        <h1>나의 포트폴리오</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#about">자기 소개</a></li>
+                <li><a href="#contact">연락하기</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="projects">
+        <h2>프로젝트</h2>
+        <div class="project">
+            <h3>프로젝트 1</h3>
+            <p>프로젝트 설명...</p>
+            <img src="project1.jpg" alt="프로젝트 1 이미지">
+            <a href="#">자세히 보기</a>
+        </div>
+        <!-- 다른 프로젝트 항목들 -->
+    </section>
+    
+    <section id="about">
+        <h2>자기 소개</h2>
+        <p>여기에 자기 소개 내용을 작성하세요.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>연락하기</h2>
+        <p>이메일: example@email.com</p>
+        <!-- 다른 연락 정보 또는 연락 양식 추가 가능 -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 나의 포트폴리오</p>
+    </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
